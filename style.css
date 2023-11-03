@@ -1,0 +1,19 @@
+.col1 {
+    border: solid red 2px
+}
+
+.col2 {
+    border: solid blue 2px
+}
+.col3 {
+    border: solid yellow 2px
+}
+
+.card {
+    margin: 2px
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
