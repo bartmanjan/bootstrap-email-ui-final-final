@@ -9,45 +9,84 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- nav bar -->
-    <div class="nav-bar"></div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">IBmail </a>
+          <!-- Search button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              
+              </li>
+
+              <li class="nav-item dropdown">
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">  
+                <i class="fa-solid fa-magnifying-glass"> </i> 
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
 
     <!-- main div -->
     <div class ="container-fluid bootstrap-container">
-        <div class="row w-100 ">
+        <div class="row">
             <div class = "col-sm-12 col-md-2 col-lg-2 d-none d-md-block d-lg-block col1">
+              
                 Column One
+                <div>
                 <ul class="list-group flex-container">
-                    <div>
+                    
                         <li class="list-group-item">Primary
                         <button type="button" class="btn btn-dark"><i class="fa-solid fa-house"></i> </button>
                         </li>
-                    </div>
-                    <li class="list-group-item">Favorites
+                    
+                      <li class="list-group-item">Favorites
                         <button type="button" class="btn btn-dark"><i class="fa-regular fa-star"></i> </button>
-                    </li>
-                    <li class="list-group-item">Sent
+                      </li>
+                      <li class="list-group-item">Sent
                         <button type="button" class="btn btn-dark"><i class="fa-solid fa-arrow-right"></i> </button>
-                    </li>
-                    <li class="list-group-item">Social Media
+                      </li>
+                      <li class="list-group-item">Social Media
                         <button type="button" class="btn btn-dark"> <i class="fa-solid fa-people-arrows"></i></button>
-                    </li>
-                    <li class="list-group-item">Almost Trash
+                      </li>
+                      <li class="list-group-item">Almost Trash
                         <button type="button" class="btn btn-dark"> <i class="fa-solid fa-tags"></i> </button>
-                    </li>
-                    <li class="list-group-item">Trash
+                      </li>
+                      <li class="list-group-item">Trash
                         <button type="button" class="btn btn-dark"> <i class="fa-solid fa-trash"></i> </button>
-                    </li>
+                      </li>
+                
                   </ul>
+                </div>
 
 
             </div> <!-- end Col 1-->
+
+            <!--Col 2 Email Cards -->
             <div class = "col-sm-12 col-md-9 col-lg-3 col2">
                 Column Two
-                <div class="card">
+                <div class="card select">
                     <h5>Desmond</h5> 
-                    <div class="card-body">                                         
-                        <p>Hello, lorem ipsum yada yada</p>
+                    <div class="card-body select">                                         
+                        <p>Hello, lorem ipsum yada yada. I am reaching out to see if...</p>
                     </div>
                 </div>
                 <div class="card">
@@ -82,16 +121,20 @@
                     </div>
                   </div>
             </div> <!-- end Col 2-->
-            <div class = "col-sm-12 col-md-12 col-lg-6 d-none d-lg-block col3">
+
+            <!--Col 3, large screen email reader-->
+            <div class = "col-sm-12 col-md-12 col-lg-7 d-none d-lg-block col3">
                 Column Three
-                <div class="email-view h-75 d-sm-none d-md-block">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, voluptatum! Quidem accusantium voluptates iusto eaque ipsam aspernatur iste, voluptate nulla temporibus expedita deleniti dolorem pariatur sed ab? Maxime repellat labore tempore unde accusamus quod voluptas deleniti ratione asperiores enim voluptate optio ad maiores odio, sit animi aspernatur praesentium minus sunt mollitia quae minima dignissimos! Nemo aperiam repellendus nihil temporibus corporis inventore voluptatem quis sapiente sit? Ut asperiores quas sit numquam, similique quidem vitae, pariatur consequatur id recusandae dolor odit iusto. Repellendus esse iure incidunt ducimus qui beatae est mollitia aut ut assumenda sapiente vitae eius reprehenderit laudantium laboriosam, quod, libero officia labore nobis eligendi eos aliquam magnam dolore consequuntur. Quam neque impedit aperiam provident necessitatibus quasi dolorem! Minus architecto accusantium saepe. Sequi autem possimus blanditiis in, delectus sapiente labore quibusdam? Totam officia voluptatibus veritatis tempora vero, quae ad laudantium aspernatur debitis, exercitationem dignissimos illum maiores facilis, odio dolorem ducimus quam!
+                <div class="email-view h-75 d-sm-none d-md-block email-view">
+                  <h2>Desmond Hume</h2> 
+                  
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, voluptatum! Quidem accusantium voluptates iusto eaque ipsam aspernatur iste, voluptate nulla temporibus expedita deleniti dolorem pariatur sed ab? Maxime repellat labore tempore unde accusamus quod voluptas deleniti ratione asperiores enim voluptate optio ad maiores odio, sit animi aspernatur praesentium minus sunt mollitia quae minima dignissimos! Nemo aperiam repellendus nihil temporibus corporis inventore voluptatem quis sapiente sit? Ut asperiores quas sit numquam, similique quidem vitae, pariatur consequatur id recusandae dolor odit iusto. Repellendus esse iure incidunt ducimus qui beatae est mollitia aut ut assumenda sapiente vitae eius reprehenderit laudantium laboriosam, quod, libero officia labore nobis eligendi eos aliquam magnam dolore consequuntur. Quam neque impedit aperiam provident necessitatibus quasi dolorem! Minus architecto accusantium saepe. Sequi autem possimus blanditiis in, delectus sapiente labore quibusdam? Totam officia voluptatibus veritatis tempora vero, quae ad laudantium aspernatur debitis, exercitationem dignissimos illum maiores facilis, odio dolorem ducimus quam!
                 </div>
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Reply" id="floatingTextarea2" style="height: 100px"></textarea>
                     <label for="floatingTextarea2">Reply</label>
                   </div>
-            </div> <!--Col 3 -->
+            </div> <!--end Col 3 -->
         </div>
     </div>
 

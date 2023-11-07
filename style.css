@@ -1,20 +1,54 @@
 .col1 {
-    border: solid red 2px
+    border: solid red 2px;
+    background-color: red
 }
 
 .col2 {
-    border: solid blue 2px
+    border: solid blue 2px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
 .col3 {
-    border: solid yellow 2px
+    border: solid rgb(194, 194, 191) 2px;
+    background-color: yellow;
+}
+
+.card.select{
+    margin: 2px;
+    flex: .6;
+    background-color: whitesmoke;
+    cursor:text
+
 }
 
 .card {
-    margin: 2px
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
 }
 
 .btn {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background-color: grey
+}
+
+.email-view {
+    background-color: rgb(234, 234, 234);
+    margin: 4px;
+}
+
+.list-group {
+ display: flex;
+ flex-direction: column;
+ background-color: rgb(234, 234, 234);
+ height: 100vh;
+ align-items: stretch;
+ margin-bottom: 10px ;
+}
+
+.list-group-item {
+  margin: 2px;
+    
 }
