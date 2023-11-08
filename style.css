@@ -1,17 +1,29 @@
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 .col1 {
-    border: solid red 2px;
-    background-color: red
+    /* border: solid red 2px; */
+    background-color: #EF4135;
+    max-width: 140px;
+    padding-top: 12px;
 }
 
 .col2 {
-    border: solid blue 2px;
-    background-color: blue;
+    /* border: solid blue 2px; */
+    background-color: #003366;
     display: flex;
     flex-direction: column;
+    overflow: auto;
+    height: 92vh;
+    padding-top: 12px;
 }
 .col3 {
-    border: solid rgb(194, 194, 191) 2px;
-    background-color: yellow;
+    background-color: #FFCC29;
+    padding-top: 12px;
 }
 
 .card.select{
@@ -23,8 +35,9 @@
 }
 
 .card {
-    background-color: rgb(234, 234, 234);
+    background-color: rgba(234, 234, 234);
     cursor: pointer;
+    max-height: 120px;
 }
 
 .btn {
@@ -35,20 +48,34 @@
 }
 
 .email-view {
-    background-color: rgb(234, 234, 234);
+    background-color: whitesmoke;
     margin: 4px;
 }
 
 .list-group {
  display: flex;
  flex-direction: column;
- background-color: rgb(234, 234, 234);
- height: 100vh;
- align-items: stretch;
- margin-bottom: 10px ;
+ background-color: rgba(234, 234, 234);
+ height: 90vh;
+ /* align-items: stretch; */
+ margin-bottom: 10px;
+ justify-content: space-evenly;
 }
 
 .list-group-item {
-  margin: 2px;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-reply {
+    padding: 12px;
+    border-radius: 4px;
+    align-self: flex-end;
+}
+
+.email-view {
+    border-radius: 4px;
+    margin: 4px;
+    max-height: 500px;
+    margin-bottom: 10px;
+    padding: 20px;
 }
