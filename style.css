@@ -5,14 +5,22 @@ body {
     overflow: hidden;
 }
 
+
 .navbar {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlh4FTbKr2DJ32bJLxznKGO-CYlTWmIZwwGA&usqp=CAU);
+    background-image: url(https://cloudinary.fclmedia.com/fctg/image/fetch/w_600,h_200,q_80,c_fill,g_xy_center,x_1061,y_707,fl_progressive/https://live-fcl-site-fcb.pantheonsite.io/sites/default/files/GettyImages-1138133468%20%281%29.jpeg);
     background-position: center;
+    
 }
 
 .navbar-brand {
-    color: white
+    color: white;
+    text-shadow: -1px -1px 0 #d5979709, 1px -1px 0 #827777, -1px 1px 0 #817474, 1px 1px 0 #918585;
 }
+
+.navbar-toggler {
+    background-color: rgba(234, 234, 234);
+}
+
 .col1 {
     /* border: solid red 2px; */
     background-color: #EF4135;
@@ -56,6 +64,9 @@ body {
     background-color: grey
 }
 
+.btn-outline-success {
+    background-color: rgba(234, 234, 234);
+}
 .email-view {
     background-color: whitesmoke;
     margin: 4px;
