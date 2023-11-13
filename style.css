@@ -5,10 +5,18 @@ body {
     overflow: hidden;
 }
 
+.navbar {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlh4FTbKr2DJ32bJLxznKGO-CYlTWmIZwwGA&usqp=CAU);
+    background-position: center;
+}
+
+.navbar-brand {
+    color: white
+}
 .col1 {
     /* border: solid red 2px; */
     background-color: #EF4135;
-    max-width: 140px;
+    /* max-width: 140px;  */
     padding-top: 12px;
 }
 
@@ -18,12 +26,13 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
-    height: 92vh;
+    height: 95vh;
     padding-top: 12px;
 }
 .col3 {
     background-color: #FFCC29;
     padding-top: 12px;
+    display: flex;
 }
 
 .card.select{
@@ -66,16 +75,24 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.btn-reply {
-    padding: 12px;
-    border-radius: 4px;
-    align-self: flex-end;
-}
-
 .email-view {
+    display: flex;
     border-radius: 4px;
     margin: 4px;
     max-height: 500px;
     margin-bottom: 10px;
     padding: 20px;
+    overflow-y: scroll;
+}
+
+.btn-compose {
+    padding: 12px;
+    border-radius: 4px;
+    justify-content: flex-end;
+}
+
+.btn-reply {
+    padding: 12px;
+    border-radius: 4px;
+   justify-content: flex-end;
 }

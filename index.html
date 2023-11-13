@@ -16,6 +16,7 @@
     
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  
         <a class="navbar-brand" href="#">IBmail </a>
         <!-- Search button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -57,9 +58,9 @@
   <!-- main div -->
   <div class="container-fluid bootstrap-container">
     <div class="row">
-      <div class="col-sm-12 col-md-2 col-lg-2 d-none d-md-block d-lg-block col1">
 
-        <!-- Column One -->
+      <!-- Column One -->
+      <div class="col-sm-2 col-md-2 col-lg-2 d-none d-md-block d-lg-block col1">
         <div>
           <ul class="list-group flex-container">
 
@@ -90,7 +91,7 @@
       </div> <!-- end Col 1-->
 
       <!--Col 2 Email Cards -->
-      <div class="col-sm-12 col-md-9 col-lg-3 col2">
+      <div class="col-sm-12 col-md-10 col-lg-4 col2">
 
         <div class="card select">
           <h5>Desmond</h5>
@@ -129,12 +130,19 @@
             This is some text within a card body.
           </div>
         </div>
+        <div class="card">
+          <div class="card-body">
+            This is some text within a card body.
+          </div>
+        </div>
+
+        <button class="btn-compose">Compose</button>
         <button class="btn-reply">Reply</button>
       </div> <!-- end Col 2-->
 
       <!--Col 3, large screen email reader-->
-      <div class="col-sm-12 col-md-12 col-lg-7 d-none d-lg-block col3">
-        <div class="email-view h-75 d-sm-none d-md-block email-view">
+      <div class="col-sm-12 col-md-12 col-lg-6 d-none d-lg-block col3">
+        <div class="email-view h-65 d-sm-none d-md-block email-view">
           <h2>Desmond Hume</h2>
 
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, voluptatum! Quidem accusantium
@@ -151,9 +159,12 @@
           quam!
         </div>
         <div class="form-floating">
-          <textarea class="form-control" placeholder="Reply" id="floatingTextarea2" style="height: 100px"></textarea>
+          <textarea class="form-control" placeholder="Reply" id="floatingTextarea2" style="height: 140px"></textarea>
           <label for="floatingTextarea2">What is thy bidding my master?</label>
-        </div>
+        <!-- </div>  Was originally planning to put button in this column, but ran into alignment issues
+          <div><button class="btn-reply">Reply</button>
+          </div>     
+         -->
       </div> <!--end Col 3 -->
     </div>
   </div>
